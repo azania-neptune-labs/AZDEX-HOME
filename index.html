@@ -70,6 +70,34 @@
       Hello Crypto
       </h1>
       
+      <iframe
+  id="onramper-widget"
+  title="Onramper widget"
+  frameborder="no"
+  allow="accelerometer; autoplay; camera; gyroscope; payment;"
+  src="https://widget.onramper.com?color=266678&apiKey=pk_test_jWCXCkJiKkFktEIitty3O160jc7OHEj2l0Hq93ngofw0">
+</iframe>
+    
+
+
+    <!-- notes:
+
+API-key:
+Add ?apiKey=[YOURAPIKEY] to the URL used for the iframe to use your (test/production) API key.
+
+
+CUSTOMIZATION:
+Customize the widget by changing the URL used for the iframe. Possible customization parameters are:
+  ?color=266678  Change color using a colour-code hex
+  ?defaultCrypto=BTC  Change BTC to another cryptocurrency ticker to display another crypto by default
+  ?defaultAmount=100  Change 100 to another amount
+  ?onlyCryptos=BTC,ETH,NEO  Only display the cryptocurrencies with the tickers you choose
+  ?excludeCryptos=TRX,EOS   Exclude cryptocurrencies changing tickers
+
+If you know the wallet address of the user, you can have this address automatically filled by generating iframes with the following argument added:
+?addresses={"BTC":["addr1"],"ETH":["add1r","addr2"]}  
+-->
+      
       <!-- Footer -->
       <footer>
         <div class="container-fluid">
